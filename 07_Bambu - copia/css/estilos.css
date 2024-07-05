@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch&display=swap');
+
+@font-face{
+    font-family: "Bubbler";
+    src: url(../font/BubblerOne-Regular.ttf);
+}
+@font-face{
+    font-family: "Chilanka";
+    src: url(../font/Chilanka-Regular.ttf);
+}
+@font-face{
+    font-family: "Redes";
+    src: url(../font/Grunge-Social-Media.ttf);
+}
+@font-face{
+    font-family: "Jacquard";
+    src: url(../font/Jacquard12-Regular.ttf);
+}
+@font-face{
+    font-family: "RubikMarker";
+    src: url(../font/RubikMarkerHatch-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+body{
+    font-size: 0px;
+}
+/* HEADER */
+#inicio{
+    background-color: #000;
+    height: 100vh;
+}
+#titulos{
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
+    vertical-align: top;
+    overflow: hidden;
+    background: url(../image/R.jfif) no-repeat 30% 30%; 
+    background-size: cover;
+    text-align: center;
+    padding: 25vh 100px;
+    color: #fff;
+}
+#tendencia{
+    font-family: "RubikMarker" , cursive;
+    font-size: 6.5rem;
+    margin-bottom: 30px;
+}
+h3{
+    font-family: "Chilanka", cursive;
+    font-size: 1.8rem;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+/* NAV */
+nav{
+    position: sticky;
+    bottom: 0px;
+    width: 100%;
+    background-color: rgba(1, 78, 24, 0.627);
+    text-align: center;
+}
+a{
+    font-family: "grunge", cursive;
+    font-size: 1.4rem;
+    color: #ffffff;
+    display: inline-block;
+    padding: 30px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    width: 33.33%;
+    border-right: black solid 2px;
+    border-top: black solid 2px;
+    border-bottom: black solid 2px; 
+}
+a:hover{
+    color: black;
+    font-family: "RubikMarker";
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
+.contenedor{
+    text-align: center;
+    padding: 70px;
+
+}
+/* Tendencias */
+#tendencias{
+    background-color: #fff;
+}
+.titulo{
+    font-family:  Helvetica, cursive;
+    color: #ff9900;
+    text-shadow: 2px 2px 5px #000;
+    font-size: 4rem;
+    margin-bottom: 40px;
+}
+
+figure, #concepto_clay{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+figure h3{
+    font-size: 1.5rem;
+    font-family: "jacquard", cursive;
+    background-color: rgba(255, 255, 255, .5);
+    width: 250px;
+    text-align: center;
+}
+figcaption{
+    font-size: 1.2rem;
+    color: white;
+    text-align: justify;
+    background-color: rgba(31, 212, 224, 0.5);
+    padding: 10px;
+    font-family: Bubbler, cursive;
+    font-weight: 600;
+}
+#avion{
+    width: 70%;
+    margin: 20px;
+    float: right;
+}
+#fieldset{
+    width: 90%;
+    font-size: 1rem;
+    color: #000;
+    font-family: "Grunge",cursive;
+    padding: 15px;
+    margin: 0px auto;
+}
+#icono{
+    color: black;
+    font-size: 2rem;
+}
+#paragraf{
+    text-align: justify;
+}
+#paragraf::first-letter{
+    font-size: 2.5rem;
+    float: left;
+    margin-right: 10px;
+    margin-top: -15px;
+}
+#third{
+    text-align: center;
+        font-family: "grunge", cursive;
+        font-size: 1.4rem;
+        color: #000;
+        display: inline-block;
+        padding: 30px;
+        letter-spacing: 2px;
+        text-decoration: none;
+        width: 33.33%;
+}
+
+
+#contacto{
+    background: url(../image/pxfuel.jpg) no-repeat fixed;
+    background-size: cover;
+    padding: 70px 0px 10px 0px;
+    height: 100vh;
+}
+#glass_estilo{
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    margin-top: 45vh;
+}
+/* h2{
+    vertical-align: middle;
+} */
+
+#naci_estilo{      
+    background-color: chocolate;
+    text-align: center;
+    color: aquamarine;
+    font-size: 3rem;
+    margin-top: 0vh
+}
+
+.imgs{
+width: 50%;
+margin: 10px;
+display: inline-block;
+
+}
+
+/*#avion{
+    width: 70%;
+    margin: 20px;SS
+    float: right;
+}  */
+
+
+footer {
+    position: relative;
+    background-color: #333; 
+    color: white;
+    padding: 20px;
+    font-family: Arial, sans-serif; 
+    text-align: center;
+}
+
+#tabla th {
+    background-color: #333;
+    color: #00080f;
+}
+
+#tabla th, #tabla td {
+    border: 1px solid;
+    padding: 8px;
+}
+
+#tabla tr:nth-child(even) {
+    background-color: #333;
+}
+
+#tabla tr:nth-child(odd) {
+    background-color: #333;
+}
+
+#tabla tr:hover {
+    background-color: #83cfe4;
+}
+#tabla th, #tabla td {
+    border: none; 
+    padding: 8px;
+}
+
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    margin: 0 10px;
+}
+
+.column p {
+    margin: 5px 0;
+}
+.copyright{
+    font-size: 1rem;
+    color: #fff;
+    font-family: 'Baloo Bhai', cursive;
+    text-align: right;
+}
+
+.bambuuu {
+    position: absolute;
+    bottom: 100px; 
+    right: 250px; 
+    font-size: 1.5rem;
+    color: white;
+}
+
+.alinear{
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+
+}
+
+.contenedor{
+    display:flex;
+    justify-content: center;
+    
+}
+
+#mapa {
+    margin-top: 60px;
+    width: 100%;
+    height: 300px;
+    background: url(../image/productos.jpg) no-repeat fixed;
+}
